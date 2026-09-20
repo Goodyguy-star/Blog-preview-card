@@ -95,7 +95,6 @@ p:nth-of-type(4) img {
 }
 
 p:nth-of-type(4) {
-  font-size: 0.84rem;
   font-weight: 800;
   color: hsl(0, 0%, 7%);
   font-size: 0.75rem;
