@@ -1,0 +1,121 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 18px;
+  border: 1px solid black;
+  max-width: 20rem;
+  min-width: 20rem;
+  padding: 1.05rem;
+  box-shadow: 7px 7px 0 black;
+  padding-bottom: 0;
+}
+
+.illustration-blog-img {
+  width: 100%;
+  border-radius: 11px;
+  margin-bottom: 1.05rem;
+}
+
+p:nth-of-type(1) {
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 0.3rem 0.65rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 0.8rem;
+}
+
+p:nth-of-type(2) {
+  font-size: 0.73rem;
+  font-weight: 500;
+  margin-bottom: 0.9rem;
+  color: hsl(0, 0%, 7%);
+}
+
+h1 {
+  font-size: 1.26rem;
+  margin-bottom: 0.9rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+.blog-link {
+  text-decoration: none;
+}
+
+.blog-link:focus-visible h1 {
+  width: 90%;
+  border: none;
+  outline: 3px solid hsl(47, 88%, 63%);
+}
+
+.blog-link:hover h1 {
+  color: hsl(47, 88%, 63%);
+}
+
+p:nth-of-type(3) {
+  font-size: 0.84rem;
+  font-weight: 500;
+  margin-bottom: 0.92rem;
+  color: hsl(0, 0%, 42%);
+  line-height: 1.4;
+}
+
+p:nth-of-type(4) img {
+  width: 100%;
+  max-width: 1.8rem;
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+p:nth-of-type(4) {
+  font-size: 0.84rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  font-size: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:focus-visible {
+  outline: 2px solid hsl(47, 88%, 63%);
+}
+
+.attribution a:hover {
+  color: hsl(47, 88%, 63%);
+}
