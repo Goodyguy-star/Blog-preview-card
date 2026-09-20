@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution Url](https://github.com/Goodyguy-star/Blog-preview-card)
+- Live Site URL: [My Live Site Url](https://goodyguy-star.github.io/Blog-preview-card/)
 
 ## My process
 
